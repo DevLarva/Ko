@@ -43,8 +43,9 @@ struct TodayCard: View {
                     HStack {
                         if let index = randomIndex, index < sentences.count {
                             Text(showEnglish ? sentenceEnglish[index] : sentences[index])
-                                .font(.title)
+                                .font(.title2)
                                 .bold()
+                                .lineLimit(3)
                                 .multilineTextAlignment(.leading)
                         }
                     }

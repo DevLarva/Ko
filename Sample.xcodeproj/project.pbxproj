@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4282A42AD50E8300C2990B /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4282A32AD50E8300C2990B /* test.swift */; };
+		AC4282A62AD5862700C2990B /* difSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4282A52AD5862700C2990B /* difSelectView.swift */; };
 		AC73A9752AD3CCA50012A385 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73A9742AD3CCA50012A385 /* SampleApp.swift */; };
 		AC73A9772AD3CCA50012A385 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73A9762AD3CCA50012A385 /* ContentView.swift */; };
 		AC73A9792AD3CCA50012A385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC73A9782AD3CCA50012A385 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC4282A32AD50E8300C2990B /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		AC4282A52AD5862700C2990B /* difSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = difSelectView.swift; sourceTree = "<group>"; };
 		AC73A9712AD3CCA50012A385 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC73A9742AD3CCA50012A385 /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
 		AC73A9762AD3CCA50012A385 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				AC73A9742AD3CCA50012A385 /* SampleApp.swift */,
 				AC73A9762AD3CCA50012A385 /* ContentView.swift */,
 				AC73A9842AD3D0410012A385 /* HomeView.swift */,
+				AC4282A52AD5862700C2990B /* difSelectView.swift */,
+				AC4282A32AD50E8300C2990B /* test.swift */,
 				AC73A98C2AD3E7740012A385 /* TodayCard.swift */,
 				AC73A9882AD3D1AE0012A385 /* Custom */,
 				AC73A9822AD3CCD00012A385 /* CardView.swift */,
@@ -169,8 +175,10 @@
 				AC73A98D2AD3E7740012A385 /* TodayCard.swift in Sources */,
 				AC73A9852AD3D0410012A385 /* HomeView.swift in Sources */,
 				AC73A9832AD3CCD00012A385 /* CardView.swift in Sources */,
+				AC4282A62AD5862700C2990B /* difSelectView.swift in Sources */,
 				AC73A98B2AD3D1CB0012A385 /* CustomButtonView.swift in Sources */,
 				AC73A9752AD3CCA50012A385 /* SampleApp.swift in Sources */,
+				AC4282A42AD50E8300C2990B /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

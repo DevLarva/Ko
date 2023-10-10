@@ -24,7 +24,7 @@ struct HomeView: View {
                     TodayCard()
                 }
                 .padding()
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: difSelectView()) {
                     CustomButtonView(buttonText: "시작", buttonColor: .orange)
                 }
             }
